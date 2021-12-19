@@ -1,0 +1,12 @@
+<div *ngIf="!invoice" class="chipsContainer">
+    <div *ngFor="let po of displayPo" class="label label-default chips">
+        {{po.purchaseOrderNumber}}
+        <i class="fa fa-times-circle pointer" id="{{po.purchaseOrderNumber}}" (click)="close(po)"></i>
+    </div>
+</div>
+<div *ngIf="invoice" class="chipsContainer">
+    <div *ngFor="let po of selectedPoInvoice" class="label label-default chips">
+        {{po.invoiceNumber}}
+        <i class="fa fa-times-circle pointer" id="{{po.invoiceNumber}}" (click)="close(po)"></i>
+    </div>
+</div>  
