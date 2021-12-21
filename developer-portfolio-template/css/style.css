@@ -217,7 +217,7 @@ a:focus {
     }
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #111111;
+        color: #cac2c2;
     }
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
@@ -887,7 +887,7 @@ a:focus {
     padding: 6px 12px;
     font-size: 14px;
     font-weight: 600;
-    color: #ffffff;
+    color: #4e4c4c;
     background: #313131;
     border: 2px solid transparent;
     border-radius: 0;
@@ -899,7 +899,7 @@ a:focus {
 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    color: #313131;
+    color: #ffffff;
     background: transparent;
     box-shadow: inset 0 0 0 0 #313131;
     border-color: #313131;
@@ -1183,13 +1183,13 @@ a:focus {
     transition: ease-out 0.5s;
 }
 
-.team .team-img {
+.team .team-embed {
     position: relative;
     width: 50%;
     overflow: hidden;
 }
 
-.team .team-img img {
+.team .team-embed embed {
     position: relative;
     width: 100%;
     transition: 0.5s;
@@ -1392,8 +1392,8 @@ a:focus {
 }
 
 .contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
     background-size: contain;
+    display: flex;
 }
 
 .contact .contact-form {
