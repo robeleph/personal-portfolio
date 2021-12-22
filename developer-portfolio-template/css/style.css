@@ -245,6 +245,27 @@ a:focus {
 }
 
 
+/* @media (min-width: 300px) {
+    .navbar {
+        padding: 15px;
+        background: #ffffff !important;
+    }
+    .navbar .navbar-brand {
+        color: #313131;
+    }
+    .navbar .navbar-nav {
+        margin-top: 15px;
+    }
+    .navbar a.nav-link {
+        padding: 5px;
+        margin-bottom: 12px;
+    }
+    .navbar .dropdown-menu {
+        box-shadow: none;
+    }
+} */
+
+
 /*******************************/
 
 
@@ -974,193 +995,6 @@ a:focus {
 /*******************************/
 
 
-/********* Banner CSS **********/
-
-
-/*******************************/
-
-.banner {
-    position: relative;
-    width: 100%;
-    margin: 45px 0;
-    padding: 90px 0;
-    background: #313131;
-}
-
-.banner .container {
-    max-width: 750px;
-    text-align: center;
-}
-
-.banner .section-header {
-    margin-bottom: 20px;
-}
-
-.banner .section-header p {
-    color: #414141;
-    background: transparent;
-}
-
-.banner .section-header p::after {
-    display: none;
-}
-
-.banner .section-header h2 {
-    color: #ffffff;
-}
-
-.banner .section-header h2 span {
-    color: #414141;
-    font-size: 50px;
-}
-
-.banner .banner-text p {
-    font-size: 18px;
-    color: #ffffff;
-}
-
-.banner .banner-text .btn {
-    margin-top: 15px;
-    color: #313131;
-    background: #ffffff;
-    box-shadow: inset 0 0 0 50px #ffffff;
-}
-
-.banner .banner-text .btn:hover {
-    color: #ffffff;
-    background: transparent;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    border-color: #ffffff;
-}
-
-
-/*******************************/
-
-
-/********* Pricing CSS *********/
-
-
-/*******************************/
-
-.price {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
-}
-
-.price .row {
-    padding: 0 15px;
-}
-
-.price .col-md-4 {
-    padding: 0;
-}
-
-.price .price-item {
-    position: relative;
-    margin-bottom: 30px;
-    background: #ffffff;
-}
-
-.price .featured-item {
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.price .price-header,
-.price .price-body,
-.price .price-footer {
-    position: relative;
-    text-align: center;
-}
-
-.price .price-header {
-    padding: 45px 0 30px 0;
-    color: #414141;
-}
-
-.price .price-item.featured-item .price-header {
-    color: #313131;
-}
-
-.price .price-title h2 {
-    font-size: 25px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.price .price-prices h2 {
-    font-size: 45px;
-    font-weight: 700;
-    margin-left: 10px;
-}
-
-.price .price-prices h2 small {
-    position: absolute;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 9px;
-    margin-left: -12px;
-}
-
-.price .price-prices h2 span {
-    margin-left: 1px;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.price .price-item.featured-item h2 {
-    color: #313131;
-}
-
-.price .price-body {
-    padding: 0 0 20px 0;
-}
-
-.price .price-description ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.price .price-description ul li {
-    padding: 0 0 20px 0;
-}
-
-.price .price-item .price-action {
-    padding-bottom: 45px;
-}
-
-.price .price-item .price-action .btn {
-    color: #ffffff;
-    background: #414141;
-    box-shadow: inset 0 0 0 50px #414141;
-}
-
-.price .price-item .price-action .btn:hover {
-    color: #414141;
-    background: transparent;
-    box-shadow: inset 0 0 0 0 #414141;
-    border-color: #414141;
-}
-
-.price .price-item.featured-item .price-action .btn {
-    color: #ffffff;
-    background: #313131;
-    box-shadow: inset 0 0 0 50px #313131;
-}
-
-.price .price-item.featured-item .price-action .btn:hover {
-    color: #313131;
-    background: transparent;
-    box-shadow: inset 0 0 0 0 #313131;
-    border-color: #313131;
-}
-
-
-/*******************************/
-
-
 /*********** Team CSS **********/
 
 
@@ -1284,101 +1118,6 @@ a:focus {
 /*******************************/
 
 
-/******* Testimonial CSS *******/
-
-
-/*******************************/
-
-.testimonial {
-    position: relative;
-    margin: 45px 0;
-    padding: 90px 0;
-    background: #313131;
-}
-
-.testimonial .container {
-    max-width: 900px;
-}
-
-.testimonial .testimonial-icon {
-    margin-bottom: 45px;
-    text-align: center;
-}
-
-.testimonial .testimonial-icon i {
-    font-size: 60px;
-    color: rgba(256, 256, 256, 0.5);
-}
-
-.testimonial .testimonial-item {
-    position: relative;
-    margin: 0 15px;
-    text-align: center;
-}
-
-.testimonial .testimonial-img {
-    position: relative;
-    margin-bottom: 15px;
-    z-index: 1;
-}
-
-.testimonial .testimonial-item img {
-    margin: 0 auto;
-    width: 120px;
-    padding: 10px;
-    border: 5px dotted #ffffff;
-    border-radius: 100px;
-}
-
-.testimonial .testimonial-text {
-    position: relative;
-    margin-top: -70px;
-    padding: 65px 35px 30px 35px;
-    text-align: center;
-    background: #ffffff;
-    border-radius: 500px;
-}
-
-.testimonial .testimonial-item p {
-    font-size: 18px;
-    font-style: italic;
-}
-
-.testimonial .testimonial-text h3 {
-    color: #313131;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.testimonial .testimonial-text h4 {
-    color: #666666;
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-.testimonial .owl-dots {
-    margin-top: 15px;
-    text-align: center;
-}
-
-.testimonial .owl-dot {
-    display: inline-block;
-    margin: 0 5px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: rgba(256, 256, 256, 0.5);
-}
-
-.testimonial .owl-dot.active {
-    background: #ffffff;
-}
-
-
-/*******************************/
-
-
 /********* Contact CSS *********/
 
 
@@ -1467,87 +1206,6 @@ a:focus {
 /*******************************/
 
 
-/*********** Blog CSS **********/
-
-
-/*******************************/
-
-.blog {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
-}
-
-.blog .blog-item {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.blog .blog-img {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
-.blog .blog-img img {
-    width: 100%;
-    transition: 0.5s;
-}
-
-.blog .blog-item:hover img {
-    transform: scale(1.1);
-}
-
-.blog .blog-text {
-    position: relative;
-    padding: 30px;
-    border-right: 1px solid rgba(0, 0, 0, 0.07);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-    border-left: 1px solid rgba(0, 0, 0, 0.07);
-}
-
-.blog .blog-text h2 {
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.blog .blog-text p {
-    margin-bottom: 10px;
-}
-
-.blog .blog-item a.btn {
-    margin-top: 10px;
-    padding: 8px 15px;
-}
-
-.blog .blog-item a.btn i {
-    margin-left: 5px;
-}
-
-.blog .blog-meta {
-    position: relative;
-    display: flex;
-    margin-bottom: 15px;
-}
-
-.blog .blog-meta p {
-    margin: 0 10px 0 0;
-    font-size: 13px;
-}
-
-.blog .blog-meta i {
-    color: #414141;
-    margin-right: 5px;
-}
-
-.blog .blog-meta p:last-child {
-    margin: 0;
-}
-
-
-/*******************************/
-
-
 /********* Footer CSS **********/
 
 
@@ -1555,12 +1213,12 @@ a:focus {
 
 .footer {
     position: relative;
-    margin-top: 45px;
-    background: #313131;
+    margin-top: 22.5px;
+    background: #fcfcfc;
 }
 
 .footer .container-fluid {
-    padding: 60px 0 0 0;
+    padding: 30px 0 0 0;
 }
 
 .footer .footer-info {
@@ -1570,17 +1228,17 @@ a:focus {
 }
 
 .footer .footer-info h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 30px;
     font-weight: 700;
-    color: #ffffff;
+    color: #313131;
 }
 
 .footer .footer-info h3 {
-    margin-bottom: 25px;
+    margin-bottom: 12.5px;
     font-size: 22px;
     font-weight: 600;
-    color: #ffffff;
+    color: #313131;
 }
 
 .footer .footer-menu {
@@ -1590,12 +1248,12 @@ a:focus {
 }
 
 .footer .footer-menu p {
-    color: #ffffff;
+    color: #313131;
     font-size: 22px;
     font-weight: 600;
     line-height: 20px;
-    padding: 0 15px;
-    border-right: 1px solid #ffffff;
+    padding: 0 7.5px;
+    border-right: 1px solid #313131;
 }
 
 .footer .footer-menu p:last-child {
@@ -1604,7 +1262,7 @@ a:focus {
 
 .footer .footer-social {
     position: relative;
-    margin-top: 15px;
+    margin-top: 7.5px;
 }
 
 .footer .footer-social a {
@@ -1612,9 +1270,9 @@ a:focus {
 }
 
 .footer .footer-social a i {
-    margin-right: 15px;
+    margin-right: 7.5px;
     font-size: 20px;
-    color: #ffffff;
+    color: #313131;
     transition: 0.3s;
 }
 
@@ -1623,15 +1281,15 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #414141;
+    color: #ffffff;
 }
 
 .footer .copyright {
     position: relative;
     text-align: center;
-    margin-top: 30px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin-top: 15px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
 }
 
 .footer .copyright::before {
@@ -1646,7 +1304,7 @@ a:focus {
 
 .footer .copyright p {
     margin: 0;
-    color: #ffffff;
+    color: #313131;
 }
 
 .footer .copyright .col-md-6:last-child p {
@@ -1654,22 +1312,22 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #ffffff;
+    color: #313131;
     font-weight: 600;
 }
 
 .footer .copyright p a:hover {
-    color: #414141;
+    color: #fffbfb;
 }
 
 @media (max-width: 575.98px) {
     .footer .footer-info h2 {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 20px;
         font-weight: 600;
     }
     .footer .footer-info h3 {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 16px;
     }
     .footer .footer-menu p {
