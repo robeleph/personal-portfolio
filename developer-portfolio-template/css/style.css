@@ -282,7 +282,7 @@ a:focus {
     padding: 120px 0 0 0;
     overflow: hidden;
     /* background: linear-gradient(rgba(29, 28, 28, 0.027), rgba(18, 17, 19, 0.95)), url(../img/hero-bg.jpg); */
-    background: linear-gradient(rgba(20, 20, 20, 0.95), rgba(65, 64, 64, 0.95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgba(20, 20, 20, 0.95), rgba(70, 69, 69, 0.95), rgba(124, 123, 123, 0.95));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
