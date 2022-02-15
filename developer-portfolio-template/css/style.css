@@ -525,7 +525,7 @@ a:focus {
 .about {
     position: relative;
     width: 100%;
-    margin: 10% 5% 10%;
+    margin: 10% 0% 10% 0%;
 }
 
 .about .col-lg-6 {
