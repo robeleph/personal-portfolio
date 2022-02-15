@@ -1077,11 +1077,11 @@ a:focus {
 }
 
 .team .team-item:hover {
-    box-shadow: inset 800px 0 0 0 #313131;
+    /* box-shadow: inset 800px 0 0 0 #313131; */
 }
 
 .team .team-item:hover .team-img img {
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
 }
 
 .team .team-item:hover .team-text h2,
