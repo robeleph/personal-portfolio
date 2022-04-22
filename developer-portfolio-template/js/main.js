@@ -126,3 +126,10 @@ function navigate2() {
         '_blank'
     );
 }
+
+function navigate3() {
+    window.open(
+        'https://hrd.sandboxaddis.com/pre-service',
+        '_blank'
+    );
+}
