@@ -893,6 +893,7 @@ a:focus {
     position: relative;
     padding: 45px 0 15px 0;
     background: #313131;
+    height: 100%;
 }
 
 .portfolio #portfolio-filter {
