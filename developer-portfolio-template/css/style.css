@@ -893,11 +893,17 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
+		background: #313131;
 }
-
+.team h2 {
+  color: white;
+}
+.team p {
+  color: white;
+}
 .team .team-item {
     position: relative;
-    background: #ffffff;
+    background: #313131;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
@@ -925,7 +931,7 @@ a:focus {
 }
 
 .team .team-text h2 {
-    color: #313131;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -974,15 +980,15 @@ a:focus {
 .team .team-item:hover .team-text h2,
 .team .team-item:hover .team-text h4,
 .team .team-item:hover .team-text p {
-    color: #ffffff;
+    color: #313131;
 }
 
 .team .team-item:hover .team-social a.btn {
-    background: #ffffff;
+    background: #313131;
 }
 
 .team .team-item:hover .team-social a.btn:hover {
-    border-color: #ffffff;
+    border-color: #313131;
 }
 
 @media (max-width: 575.98px) {
@@ -1016,7 +1022,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #313131;
+    background: #ffffff;
 }
 
 .contact .container-fluid {
@@ -1027,50 +1033,50 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #313131;
+    background: #ffffff;
 }
 
 .contact .contact-form input {
-    color: #ffffff;
+    color: #313131;
     padding: 15px 0;
     background: none;
     border-radius: 0;
     border: none;
-    border-bottom: 1px solid rgba(256, 256, 256, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .contact .contact-form textarea {
-    color: #ffffff;
+    color: #313131;
     height: 90px;
     padding: 15px 0;
     background: none;
     border-radius: 0;
     border: none;
-    border-bottom: 1px solid rgba(256, 256, 256, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .contact .contact-form .form-control::placeholder {
-    color: #ffffff;
+    color: #313131;
     opacity: 1;
 }
 
 .contact .contact-form .form-control:-ms-input-placeholder,
 .contact .contact-form .form-control::-ms-input-placeholder {
-    color: #ffffff;
+    color: #313131;
 }
 
 .contact .contact-form .btn {
     margin-top: 35px;
-    color: #313131;
-    background: #ffffff;
-    box-shadow: inset 0 0 0 50px #ffffff;
+    color: #ffffff;
+    background: #313131;
+    box-shadow: inset 0 0 0 50px #313131;
 }
 
 .contact .contact-form .btn:hover {
-    color: #ffffff;
+    color: #313131;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    border-color: #ffffff;
+    box-shadow: inset 0 0 0 0 #313131;
+    border-color: #313131;
 }
 
 .contact .help-block ul {
@@ -1079,7 +1085,7 @@ a:focus {
     list-style-type: none;
     font-size: 14px;
     font-style: italic;
-    color: #ffffff;
+    color: #313131;
 }
 
 @media (max-width: 767.98px) {
@@ -1103,7 +1109,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 22.5px;
-    background: #fcfcfc;
+    background: #313131;
 }
 
 .footer .container-fluid {
@@ -1120,14 +1126,14 @@ a:focus {
     margin-bottom: 10px;
     font-size: 30px;
     font-weight: 700;
-    color: #313131;
+    color: #fcfcfc;
 }
 
 .footer .footer-info h3 {
     margin-bottom: 12.5px;
     font-size: 22px;
     font-weight: 600;
-    color: #313131;
+    color: #fcfcfc;
 }
 
 .footer .footer-menu {
@@ -1137,12 +1143,12 @@ a:focus {
 }
 
 .footer .footer-menu p {
-    color: #313131;
+    color: #fcfcfc;
     font-size: 22px;
     font-weight: 600;
     line-height: 20px;
     padding: 0 7.5px;
-    border-right: 1px solid #313131;
+    border-right: 1px solid #fcfcfc;
 }
 
 .footer .footer-menu p:last-child {
@@ -1161,7 +1167,7 @@ a:focus {
 .footer .footer-social a i {
     margin-right: 7.5px;
     font-size: 20px;
-    color: #313131;
+    color: #fcfcfc;
     transition: 0.3s;
 }
 
@@ -1193,7 +1199,7 @@ a:focus {
 
 .footer .copyright p {
     margin: 0;
-    color: #313131;
+    color: #ffffff;
 }
 
 .footer .copyright .col-md-6:last-child p {
@@ -1201,12 +1207,12 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #313131;
+    color: #ffffff;
     font-weight: 600;
 }
 
 .footer .copyright p a:hover {
-    color: #fffbfb;
+    color: #ffffff;
 }
 
 @media (max-width: 575.98px) {
